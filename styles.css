@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "win98";
+    src: url("win98.ttf") format('truetype');
+}
+
+/* Updated styles for better readability and design */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Updated to a more modern font */
+  background-color: #fafafa; /* Lighter background for a cleaner look */
+  color: #333; /* Dark text for readability */
+  line-height: 1.6; /* Improved line spacing */
+}
+
+/* Fixed Navigation bar */
+nav {
+  background-color: #ff6f00; /* Deeper orange for a stronger header */
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* More defined shadow */
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  color: #ffe0b2; /* Soft color on hover */
+}
+
+/* Main content styling */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px; 
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: black;  /* #ff6f00;  Stronger color for main heading */
+  margin-bottom: -2rem;
+  font-family: 'win98', sans-serif;
+  font-weight: 800;
+}
+
+h2, h3 {
+  color: #ff6f00;
+  text: center;
+}
+
+h3 {
+ margin: 0; 
+}
+
+img {
+  max-width: 90%; /* Limited width for better responsiveness */
+  margin: 25px 0;
+  max-height: 450px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+ul {
+  margin: 15px 0;
+  color: #ff6f00;
+}
+
+/* Enhanced Call to Action (CTA) section styling */
+#cta {
+  background-color: #fff3e0; /* Softer background with a light orange hue */
+  border: 3px dashed #ff6f00; /* Dashed border for a distinct look */
+  padding: 20px;
+  margin: 3rem 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+}
+
+#cta p {
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: 500;
+  width: 100%;
+}
+
+/* Table styling for better design */
+table {
+  width: 85%;
+  margin: 25px 0;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #ff6f00;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+td {
+  background-color: #fff;
+}
+
+/* Improved styling for images with class "print" */
+.print {
+  border: 2px solid #ff6f00;
+  border-radius: 8px;
+  margin: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling (if there is any) */
+footer {
+  background-color: #ff6f00;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  table {
+    width: 100%;
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+
+section h3 {
+  align-self: flex-start; 
+}
+
+
+/* Separator styling */
+.separator {
+  width: 50%; /* The line takes up 40% of the page width */
+  height: 2px; /* Thin line for subtlety */
+  background-color: #ff6f00; /* Match the main orange color of the page */
+  margin: 30px auto; /* Centered and with spacing before and after */
+  opacity: 0.7; /* Slight transparency to soften the look */
+}
+
+ul h3 {
+color: #000000;
+}
+
+p {
+margin: 15px auto;
+width: 80%;
+
+}
+
+section div h3 span {
+font-weight: 800;
+font-size: 2rem;
+}
